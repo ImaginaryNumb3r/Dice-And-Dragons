@@ -1,17 +1,17 @@
 package numerical
 
-import tabletop.EdgeOfTheEmpire.abilityDie
-import tabletop.EdgeOfTheEmpire.boostDie
-import tabletop.EdgeOfTheEmpire.challengerDie
-import tabletop.EdgeOfTheEmpire.difficultyDie
-import tabletop.EdgeOfTheEmpire.forceDie
-import tabletop.EdgeOfTheEmpire.proficiencyDie
-import tabletop.EdgeOfTheEmpire.setbackDie
-import tabletop.EventType.*
+import tabletop.edge_of_the_empire.EdgeOfTheEmpire.abilityDie
+import tabletop.edge_of_the_empire.EdgeOfTheEmpire.boostDie
+import tabletop.edge_of_the_empire.EdgeOfTheEmpire.challengerDie
+import tabletop.edge_of_the_empire.EdgeOfTheEmpire.difficultyDie
+import tabletop.edge_of_the_empire.EdgeOfTheEmpire.forceDie
+import tabletop.edge_of_the_empire.EdgeOfTheEmpire.proficiencyDie
+import tabletop.edge_of_the_empire.EdgeOfTheEmpire.setbackDie
+import edge_of_the_empire.EoteSymbol.*
 import org.junit.Assert.*
 import org.junit.Test
 
-class EventDieTest {
+class SymbolicDieTest {
 
     @Test
     fun testFaces() {

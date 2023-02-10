@@ -1,11 +1,11 @@
 package numerical
 
 /**
- * A die which represents a set of events instead of a sequence of numbers.
+ * A die which represents a set of symbols instead of a sequence of numbers.
  * (Face, EventType, Number)
  */
-class EventDie<EventType>(private val eventDice: List<DieEvent<EventType>> = listOf()) {
-    constructor(vararg events: DieEvent<EventType>): this(events.toList())
+class SymbolicDie<EventType>(private val eventDice: List<DieSymbol<EventType>> = listOf()) {
+    constructor(vararg events: DieSymbol<EventType>): this(events.toList())
     val faces get() = eventDice.distinctBy { it.face }.count()
     val events get() = eventDice.map { it.eventType }.toSet()
 

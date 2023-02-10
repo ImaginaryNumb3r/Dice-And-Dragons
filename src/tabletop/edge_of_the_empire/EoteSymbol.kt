@@ -1,5 +1,5 @@
-package tabletop
+package tabletop.edge_of_the_empire
 
-enum class EventType {
+enum class EoteSymbol {
     SUCCESS, FAILURE, ADVANTAGE, THREAT, TRIUMPH, DESPAIR, NOTHING, DARK, LIGHT
 }
