@@ -4,6 +4,7 @@ import numerical.Chance.Chances.coinFlip
 import numerical.Die.Companion.D20
 import numerical.Die.Companion.D6
 import org.junit.jupiter.api.Test
+import util.Doubles
 import kotlin.test.assertEquals
 
 internal class DieTest {

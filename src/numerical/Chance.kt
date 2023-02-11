@@ -1,5 +1,6 @@
 package numerical
 
+import util.Doubles
 import kotlin.IllegalArgumentException
 
 @Suppress("EqualsOrHashCode")

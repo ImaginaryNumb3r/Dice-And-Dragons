@@ -1,4 +1,4 @@
-package numerical
+package util
 
 import java.math.RoundingMode
 import kotlin.math.abs
